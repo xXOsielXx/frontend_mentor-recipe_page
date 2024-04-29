@@ -106,6 +106,6 @@ td.value {
 @media only screen and (min-width: 800px) {
 	#main-container {
 		border-radius: 16px;
-		margin: 128px auto;
+		margin: 64px auto;
 	}
 }
