@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+@font-face {
+	font-family: outfit;
+	src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+	font-family: young-serif;
+	src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+body {
+	min-height: 100%;
+	background-color: bisque;
+	font-size: 20px;
+}
+
+body,
+#time-heading {
+	font-family: outfit, sans-serif;
+}
+
+#banner {
+	width: 100%;
+	border-radius: 8px;
+}
+
+#main-container {
+	padding: 48px;
+	width: 100%;
+	max-width: 600px;
+	background-color: #fff;
+}
+
+h1 {
+	font-size: 2.5rem;
+	margin: 32px 0;
+}
+
+h2 {
+	font-size: 2rem;
+	color: indianred;
+	margin-bottom: 32px;
+}
+
+h1, h2 {
+	font-family: young-serif, sans-serif;
+	font-weight: normal;
+}
+
+#time-heading {
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: darkviolet;
+}
+
+.container:not(:first-of-type):not(:last-of-type) {
+	padding-bottom: 64px;
+	border-bottom: 1px solid lightgray;
+}
+
+.container {
+	margin: 64px 0;
+}
+
+.container:first-of-type {
+	margin-left: 32px;
+}
+
+.container ul li,
+.container ol li {
+	margin: 16px 32px;
+	padding-left: 16px;
+}
+
+.container p {
+	margin-bottom: 32px;
+}
+
+.container table {
+	width: 100%;
+	padding: 16px;
+	border-collapse: collapse;
+}
+
+.container table td {
+	width: 50%;
+	padding: 16px 0;
+	padding-left: 48px;
+	border-bottom: 1px solid lightgray;
+}
+
+td.value {
+	color: darkred;
+}
+
+@media only screen and (min-width: 800px) {
+	#main-container {
+		border-radius: 16px;
+		margin: 64px auto;
+	}
+}
